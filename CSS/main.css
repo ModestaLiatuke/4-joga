@@ -28,6 +28,7 @@
             margin-left: 32%;
         }
         a {
+            color: #2D273D;
             display: inline-block;
             float: left;
             text-decoration: none;
@@ -41,7 +42,7 @@
  
         }
         a:hover {
-            color:rgb(17, 0, 255);
+            color: #FF4622;
             text-decoration:underline;
         }
 
