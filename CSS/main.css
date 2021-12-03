@@ -1,8 +1,7 @@
 <style>
         body {
             background-color: #FFFFFF;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+            font-family: cursive;
         }
         main {
             display: inline-block;
@@ -11,40 +10,41 @@
         }
         header {
             display: inline-block;
-            width: 100%;
+            width: 1000px;
+            margin-left: calc(50% - 500px);
             margin-top: 2px;
 
         }
-        header>img {
+        header > img {
             float:left;
             height: 40px;
             
-
         }
         nav {
-            font-family: cursive;
-            float: left;
+            float: right;
             margin-top: 20px;
-            margin-left: 32%;
-        }
-        a {
-            color: #2D273D;
-            display: inline-block;
-            float: left;
-            text-decoration: none;
-            font-size: 12px;
-            line-height: 20px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            padding-left: 20px;
-            padding-right: 20px;
+            font-family: cursive;
             
- 
         }
-        a:hover {
-            color: #FF4622;
-            text-decoration:underline;
+        nav > a {
+            display: inline-block;
+            font-size: 18px;
+            line-height: 20px;
+            text-decoration: none;
+            color: #2D273D;
+            margin-left: 20px;
+            border-bottom: 5px solid transparent;
         }
+
+        nav > a:hover {
+            border-bottom: 5px solid #ff4622;
+            }
+
+        nav > a:first-child {
+            margin-left: 0;
+            border-color: #ff4622;
+
+            }
 
         section {
             display: inline-block;
@@ -66,7 +66,11 @@
             margin-top: 25%;
 
         }
+        h1 > span {
+
+        }
         p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             margin-top:0px;
             font-size: 20px;
 
@@ -74,7 +78,7 @@
         section>div>a {
             display:inline-block;
             float: left;
-            width: 22%;
+            width: 26%;
             background-color: #FF4622;
             color: white;
             padding: 20px;
@@ -82,8 +86,8 @@
             padding-bottom: 5px;
             border: 3px solid #FF4622;
             border-radius: 5px;
- 
-        }
+            
+         }
 
         
 
