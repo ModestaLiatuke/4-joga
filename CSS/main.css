@@ -38,12 +38,12 @@ body {
         }
         nav > a:hover {
             border-color: var(--oranzine);
-            }
+        }
 
         nav > a:first-child {
             margin-left: 0;
             border-color: var(--oranzine)
-            }
+        }
 
         main {
             display: inline-block;
@@ -57,13 +57,13 @@ body {
             margin-right: var(--text-margin);
             color: #2C224E;
             margin-top: 50px;
-            }
+        }
         h1 {
             display: inline-block;
             width: 100%;
             font-size: 42px;
             margin: 0;
-            }
+        }
        
         h1 > span {
             color: var(--oranzine);
@@ -85,8 +85,7 @@ body {
             border: 1px solid #d1583f;
             border-radius: 4px;
             text-decoration: none;
-            
-         }
+        }
          main > img {
             float: left;
             width: var(--image-width);
